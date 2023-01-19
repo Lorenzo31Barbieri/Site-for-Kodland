@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    min-width: 850px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    display: grid;
+    grid-template: 650px 300px 1fr 1fr 5% / repeat(5, 1fr);
+    box-sizing: border-box;
+}
+
+.row{
+    grid-column: 1 / span 5;    
+}
+
+/*first*/
+
+.row_first{
+    background-image: url(images/background.png);
+    font-size: 20px;
+    display: grid;
+    grid-template: 100px 500px / 1fr 15% 10% 10% 10%;
+    box-sizing: border-box; 
+}
+
+.row_first .web_title{
+    grid-column: 1 / span 2;
+}
+
+.row_first .navbar{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row_first__content{
+    margin-top: 10;
+    width: 100%;
+}
+
+.row_first__content h1{
+    color: white;
+    font-size: 100px;
+    text-align: left;
+    padding: 0 0 0 50px;
+    margin-bottom: 0px;
+    font-family: Arial Black;
+}
+
+.row_first__content p{
+    padding: 0 50px 50px 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.row_first__content button{
+    width: 160px;
+    height: 45px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(180, 255, 255);
+    font-weight: bold;
+}
+
+
+/*second*/
+
+.row_second h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.row_second p{
+    text-align: center;
+    padding: 10 200 0 200;
+}
+
+/*third*/
+
+
+.row_third{
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(186, 255, 232);
+}
+.row_third h1{
+    text-align: center;
+}
+.row_third__content{
+    display: flex;
+    margin: 20 0 20 0;
+    text-align: center;
+    justify-content: center;
+    
+}
+.row_third__content .card{
+    margin: 10 50 10 50;
+    padding: 20px;
+}
+
+.row_third__content img{
+    width: 300px;
+}
+.row_third__content button{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 192, 75);
+    font-weight: bold;
+}
+
+/*fourth*/
+
+.row_fourth{
+    background-image: url(images/bg-grid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.row_fourth__content{
+    margin: 140 50 140 50;
+    padding: 20;
+}
+
+.row_fourth img{
+   width: 400px;
+   height: 350px;
+   align-self: center;
+   margin-right: 20;
+}
+
+/*footer*/
+
+.footer{
+   background-color: rgb(48, 48, 48);
+   color: white;
+   padding: 10;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+
+
